@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontobewegung erfassen</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <!-- Das Form Tag  -->
+         <!-- action sagt wohin das Formular gesendet werden soll -->
+          <!-- method sagt welche HTTP Methode soll benutzt werden -->
+        <form action="index.html" method="get">
+            <div>
+                <label for="date">Datum</label>
+                <input name="date" type="date" id="date">
+
+            </div>
+            <div>
+                <label for="beschreibung">Beschreibung</label>
+                <input name="gibmirschuhe" type="text" id="beschreibung" required>
+
+            </div>
+            <div>
+                <label for="ausgabe">Ausgabe</label>
+                <input name="ausgabe" type="number" id="ausgabe">
+
+            </div>
+            <div>
+                <label for="einnahme">Einnahme</label>
+                <input type="number" name="einnahme" id="einnahme">
+
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="checkbox" name="password" id="password">
+
+            </div>
+            <div>
+                <label for="haus">Haus</label>
+                <input type="radio" name="haus" id="haus">
+
+            </div>
+            <div>
+                <label for="wohnung">Wohnung</label>
+                <input type="radio" name="haus" id="wohnung">
+
+            </div>
+            <div>
+                <textarea name="geschichte" id="" rows="20" cols="40"></textarea>
+            </div>
+            <div>
+                <select name="farbe" id="farbe">
+                    <option value="">-</option>
+                    <option value="svsg">Super Violett Sparkle Glitter</option>
+                    <option value="noreflexion" >Super Schwarz</option>
+                </select>
+            </div>
+            <input type="submit" value="Absenden">
+            <input type="reset" value="löschen">
+        </form>
+    </main>
+</body>
+</html>

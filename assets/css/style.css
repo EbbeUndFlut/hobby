@@ -1,0 +1,53 @@
+*{
+    font-family: monospace;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+table{
+    border-collapse: collapse;
+    margin: 3rem auto;
+}
+th,
+td {
+    border: 1px solid black;
+    padding:8px;
+}
+
+/*Pseudo Klasse*/
+td:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+h2{
+    margin: 10px auto;
+    text-align: center;
+}
+
+/*Wir machen ein krasses Formular*/
+/* Versucht selbständig das Formular in ein krasses/schönes Formular zu verwandeln
+alle zeilen sollen die gleich breite haben z.b. */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 450px;
+  margin: 100px auto 50px auto;
+}
+ 
+input {
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+ 
+button {
+  width: 400px;
+  font-size: 24px;
+  background-color: rgb(76, 191, 230);
+  border: none;
+  padding: 5px;
+}
